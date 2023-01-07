@@ -1,4 +1,4 @@
---[locals n shit]--
+--[locals]--
 local UserInputService = game:GetService("UserInputService")
 local lp = game:GetService('Players').LocalPlayer
 local chr = game.Players.LocalPlayer.Character
@@ -50,7 +50,7 @@ local thirdperson = false
 local tintR, tintG, tintB = 1,1,1
 
 
--- viewport shit
+-- viewport
 local viewportGui = Instance.new("ScreenGui", coreGui)
 viewportGui.IgnoreGuiInset = true
 local viewportFrame = Instance.new("ViewportFrame")
